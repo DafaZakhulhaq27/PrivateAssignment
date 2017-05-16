@@ -16,7 +16,8 @@ import java.util.List;
  * Created by Dafa Zakhulhaq on 13/05/2017.
  */
 
-public class Newsadapter extends RecyclerView.Adapter<Newsadapter.ViewHolder> {
+public class Newsadapter
+        extends RecyclerView.Adapter<Newsadapter.ViewHolder> {
 
     private List<News> newses;
     private Context context;

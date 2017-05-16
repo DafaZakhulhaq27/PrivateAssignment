@@ -31,7 +31,7 @@ import java.util.List;
  */
 public class Beranda extends Fragment {
 
-    private static final String URL_DATA = "https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=43af31f8712746fbb0e735d4      ee552244";
+    private static final String URL_DATA = "https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=43af31f8712746fbb0e735d4ee552244";
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<News> newslist;
@@ -51,15 +51,14 @@ public class Beranda extends Fragment {
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
+
+        LinearLayoutManager layoutManager
+                = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
+
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
 
-        LinearLayoutManager layoutManagera
-                = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
-
-
         newslist = new ArrayList<>();
-
 
         tampil();
 
@@ -119,3 +118,4 @@ public class Beranda extends Fragment {
     }
 
 }
+
