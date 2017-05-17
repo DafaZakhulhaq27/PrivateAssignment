@@ -11,7 +11,9 @@ JUDUL : MoviesReviews
 <br>Link API : https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=1d82a5270c564eceaae327fd1d06aeb7
 <br>Navigation : Drawer(4)
 <br>Library : SQLite dasar
-<br>Deskripsi : Aplikasi yang membantu pengguna menemukan film favoritenya bisa digunakan juga untuk menyimpan catatan
+<br>Deskripsi : Aplikasi ini berguna untuk anda para pecinta film, menyediakan informasi update film paling populer dai masa sekarang. Gambar, judul deskripsi dan nama pembuat. Juga dilengkapi app intro untuk memudahkan pengguna aplikasi. Desain juga didesain semenarik mungkin. Ada juga fitr note. Pengguna bisa menyimpan catatannya secara offline.
+
+
 <br>Kelebihan : Tampilan yang menarik
 
 ![whatsapp image 2017-05-17 at 20 05 44](https://cloud.githubusercontent.com/assets/25057235/26157759/37142e78-3b44-11e7-93b3-ca27bc1acce2.jpeg)
