@@ -4,12 +4,12 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import"/>
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Beranda"/>
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery"/>
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Catatanku"/>
     </group>
 
 

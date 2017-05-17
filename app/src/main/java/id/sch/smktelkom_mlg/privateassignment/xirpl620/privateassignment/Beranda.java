@@ -36,7 +36,6 @@ public class Beranda extends Fragment {
     private RecyclerView.Adapter adapter;
     private List<News> newslist;
 
-
     public Beranda() {
         // Required empty public constructor
     }
